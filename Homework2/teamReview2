@@ -1,0 +1,19 @@
+Alexander Cho
+
+Team E Stakeholder
+
+a. The team has a varying amount of activity. I looked at it last week and it is similar to this weeks activity.
+I don't think it is something to worry about.
+
+b. Storylogs are excellent. They give a clear idea about what their goals are. There are a lot more of them now
+so it may be difficult to get all of those into the final version. The class models and UI model on the other hand
+are very confusing. A major issue I had is that they either seem redundant or the order in which they are loaded
+in the UI diagram. Recent Challenges and Challenge Results seems like they could be combined to create a single page.
+The Activity Selection and Activity of Challenge were confusingly worded. They seemed to do the same task as the board
+for activities had not been created yet. Finally, I suggest adding a drop down menu of the sports or activities 
+instead of an open field. This way users cannot write football and Football and have them count as separate entities.
+
+c. The code I pulled I could not get to run. They should check to see if it works on multiple machines.\
+
+d. The team's supplemental specification addresses all non-functional requirements I could think of. They seem to know
+what they are doing.
