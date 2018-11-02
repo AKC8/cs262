@@ -1,0 +1,18 @@
+Excercise 9.1
+a. How many API endpoints does this application support and where are they implemented?
+	a) 2 endpoints in Player and PlayerID
+b. PlayerResource.java
+	i. What is the Java-based technology used to access data from a database?
+		b.i) @APIissuer
+	ii. Compare and contrast the following:
+		1. SQL query statements vs. JDBC statement objects
+			b.ii.1)JDBC takes java statements and converts them into sql objects. SQL reads the block of data that is queried.
+		2. SQL relations vs. JDBC result sets vs. List<Player>
+			b.ii.2)JDBC resultsets are the same as the table select statements in SQL. Essentially they provide the same results but using java syntax.
+	iii. Under what circumstances would the function getValueStringOrNull() be used?
+		b.iii) used in the event a value is null or string. EG. the player name can be null or a value. The method takes either.
+c. Player.java
+	i. What purpose does this Player DAO serve?
+		c.i) Creates player object and allows changes to the properties associated with the objects.
+	ii. How does it compare with the Player table?
+		c.ii) PlayerDAO only allows access to one row. Player Table is the data in macro form. Player Table gives all of the rows.
