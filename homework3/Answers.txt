@@ -1,0 +1,19 @@
+1.a) We implement things like Get, Put, Post, Delete in the service. This is especially important for RESTful services because http methods are some of the key aspect of REST.
+1.b) A lot of our SQL is idempotent. We use things to check if exists before inserting. This is idempotent. We did not have an endpoint that was nullipotent
+1.c)"With the object paradigm you traverse objects via their relationships whereas with the relational paradigm you join the data rows of tables.
+This fundamental difference results in a non-ideal combination of object and relational technologies"
+Taken from http://www.agiledata.org/essays/impedanceMismatch.html
+1.d) I do not believe that the web service is vulnerable to injection attacks.
+
+2.a) The project management materials seem active enough. Some people don't seem to be contributing but as a whole the group seems to be working on the materials
+2.b) The SQL schema model is interesting. From what I understand, ELO works best when comparing a single player to another single player. Games with more than one player
+like soccer or football make gauging an individuals performance tough. With this in mind, I am having a hard time understanding how the database schema will account for this.
+They could add another column for role so players with similar roles on teams can be compared to one another. Usually, in team game, statistics are used instead because it is
+hard to compare a goalie to a striker. One will nearly ever score goals so having a better way of tracking skill would help them with their ELO system. Having role would allow
+them to do 1:1 comparisons with players on other teams. Other than that, the database schema seems well put together. They understand how the tables link to one another and have
+implemented appropriate primary keys.
+2.c) The database functions. The sql necessary to create the database is all there. The code that is currently in the client repo is set up.
+As of right now the server does not seem to be set up.
+2.d) The presentation was good. It got the purpose of the app across. One thing I disliked is that it seemed very general. I like that there is an ELO system they are implementing
+but ELOs require a lot of fine tuning. It would have been better for the team to pick one game, like chess, and only focus on developing a ranking for it. Their presentation was a
+little awkward. I think at one point someone wasn't set to change the slides which caused a delay.
