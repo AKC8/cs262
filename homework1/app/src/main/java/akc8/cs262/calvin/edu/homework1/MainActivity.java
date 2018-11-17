@@ -20,6 +20,12 @@ public class MainActivity extends AppCompatActivity {
     float result_num;
     int num1, num2;
 
+    /**
+     * When the activity is created, it gets the variables with values of main views so
+     * data can be passed to them.
+     *
+     * @param savedInstanceState
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,12 +37,19 @@ public class MainActivity extends AppCompatActivity {
         results = findViewById(R.id.results);
 
 
-
+        /**
+         * This is a method for when the calculate button is pressed.
+         * Takes the values from the onclick and built in calculator function to do basic
+         * operations.
+         * Expects +, -, ÷, x as inputs.
+         *
+         */
         calcButn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 num1 = Integer.parseInt(value1Edit.getText().toString());
-                num2 = Integer.parseInt(value2Edit.getText().toString());{
+                num2 = Integer.parseInt(value2Edit.getText().toString());
+                {
                     if (operator.getSelectedItem().toString().equals("+")) {
                         result_num = num1 + num2;
                     } else if (operator.getSelectedItem().toString().equals("−")) {
@@ -47,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
                         result_num = num1 * num2;
                     }
 
-                        results.setText(String.valueOf(result_num));
+                    results.setText(String.valueOf(result_num));
                 }
 
             }

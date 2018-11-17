@@ -34,6 +34,12 @@ public class MainActivity extends AppCompatActivity {
     private GameAdapter listAdapter;
     private ArrayList<GameItem> gameItems;
 
+    /**
+     * Makes HTTP requests to the DB for players. The data is in the Monopoly API in JSON
+     * and the app displays the data.
+     *
+     * @param savedInstanceState
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -48,6 +54,11 @@ public class MainActivity extends AppCompatActivity {
         listView.setAdapter(listAdapter);
     }
 
+    /**
+     * Method to make toast messages
+     * @param = ()
+     * I hard coded the toast and never changed it.
+     */
     private void displayToast() {
         Toast.makeText(this, "Couldn't find player", Toast.LENGTH_LONG).show();
     }
@@ -76,6 +87,11 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    /**
+     * Method is called to allow the data to be retrieved from the DB. This part of the app should
+     * be correct. The issue for the homework was somewhere in the network activity.
+     * @param view
+     */
     public void fetch(View view) {
         String url = "https://calvincs262-monopoly.appspot.com/monopoly/v1";
         if (mEditText.getText().toString().equals("")) {

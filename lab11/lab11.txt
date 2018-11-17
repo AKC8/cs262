@@ -1,0 +1,29 @@
+lab11.txt
+
+11.1
+Homework 1
+- I noticed in the inspect code portion that I had a few redundancies.
+- Javadoc
+	- @param savedInstanceState was missing a tag description which was added.
+	- Dangling Javadoc comment was fixed.
+- Added basic documentation to the main activity.
+
+- I did not make any changes to the homework as everything worked as I expected it to. 
+Once I reformatted the code so that it looked pretty I left it alone.
+
+Homework 2
+- Added basic documentation to the main activity and listed params.
+- Javadoc
+	-Parameter name was expected. This was fixed.
+	- @param savedInstanceState was missing a tag description which was added.
+	- Dangling Javadoc comment was fixed.
+- The homework is still broken. I could not get the app to connect to the database.
+
+11.2
+I created an issue with an enhancement tag. The visual verification for completed tasks has not been implemented yet.
+Removing completed tasks without replacement isn't very user friendly in my opinion as I would like to see which tasks I have done and which I have not.
+I think it would also help players make sure that their score is being tallied properly. I did not close this issue because it is a genuinely good idea
+that we are going to implement in the future.
+
+I like the issues tab in github. Nate and I talked about it and agreed that it would be nice to replace trello with it because having all of the information
+in one site is better than keeping track of trello and github. If github ever gets issues and a live chat, slack and trello may be forgotten.
