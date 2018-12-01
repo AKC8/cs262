@@ -1,0 +1,7 @@
+a.
+Team Pilot has done a very good job with their user test. They gave instructions clearly and concisely. They clearly had rehearsed or were well informed on how their app worked.
+The app had the same funtionality that it did during the mock presentations with tweaks here and there. I took the user test on Wednesday and by the time we reached the stakeholder
+meeting they had implemented my suggestion to rename one of their tabs due to some confusion. They also managed to get google auth working which was very impressive.
+
+b.
+There was an appropriate amount of code in their client repo.
