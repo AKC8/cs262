@@ -1,0 +1,12 @@
+a. It looks like each person contributed to different parts of the project. It seems like an even split
+in terms of amount of work. Earlier in the semester I was worried that only a few people would be working
+but at the end it seemed like everyone contributed. Either by documenting, testing, coding, or running user tests,
+all members of Team Pilot seemed to put in work.
+
+b. I enjoyed their final presentation. In comparison to the earlier mock presentation, they streamlined the vision, app design,
+and database diagram talk so that the demo could go longer. I liked that the demo was simplified. The drawer
+menu was fixed so that the create challenge and issue challenge wording was no longer confusing.
+
+c. Final application runs with some bugs. I could not get all of it to run with Android studio. I think that may be
+a fault with Android studio and not on the actual application. When I have seen it in person, the app worked fine
+without crashes.
